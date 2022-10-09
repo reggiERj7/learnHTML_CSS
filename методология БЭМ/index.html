@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>БЭМ</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<section class="lesson">
+					<h1 class="lesson__title">Методология БЭМ</h1>
+				</section>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				<section class="block">
+					<h1 class="block__title">
+						Блок. Функционально независимый компонент страницы, который может быть
+						повторно использован. В HTML блоки представлены атрибутом class.
+					</h1>
+					<p class="block__descr">
+						<h3 class="block__property">Особенности:</h3>
+						<ul class="block__ul">
+							<li class="block__li">Название блока характеризует смысл («что это?» — «меню»: menu, «кнопка»: button), а не состояние («какой, как выглядит?» — «красный»: red, «большой»: big).</li>
+							<li class="block__li">Блок не должен влиять на свое окружение, т. е. блоку не следует задавать внешнюю геометрию (в виде отступов, границ, влияющих на размеры) и позиционирование.</li>
+							<li class="block__li">В CSS по БЭМ также не рекомендуется использовать селекторы по тегам или id.</li>
+						</ul>
+					</p>
+				</section>
+				<section class="element"></section>
+				<section class="modificator"></section>
+			</div>
+		</main>
+	</body>
+</html>
